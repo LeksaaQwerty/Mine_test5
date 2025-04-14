@@ -13,11 +13,15 @@ public class TestMode_6 {
 	
 	public static Item itemTable;
 	public static Item itemStoll;
+	public static Item itemStoleshnica;
+	
+	public static Item Look;
 	
 	 @EventHandler
 	  public void preInit(FMLPreInitializationEvent event) {
 	    itemTable = new ItemTable().setUnlocalizedName("ItemTable");
 	    itemStoll = new ItemStoll().setUnlocalizedName("ItemStoll");
+	    
 	    
 	    GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
 	    GameRegistry.registerItem(itemStoll, itemStoll.getUnlocalizedName().substring(5));
