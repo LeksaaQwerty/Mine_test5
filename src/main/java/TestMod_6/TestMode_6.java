@@ -21,6 +21,7 @@ public class TestMode_6 {
 	  public void preInit(FMLPreInitializationEvent event) {
 	    itemTable = new ItemTable().setUnlocalizedName("ItemTable");
 	    itemStoll = new ItemStoll().setUnlocalizedName("ItemStoll");
+	    Look = new ItemStoll();
 	    
 	    
 	    GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
